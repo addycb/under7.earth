@@ -7,6 +7,12 @@ p1 {
   text-align: left;
 } 
 body {
+  background-color: greenyellow;
   background-image: url("blisslands.png");
+  background-repeat: no-repeat;
+  background-size: 300px 200px;
+  background-position: center;
+  background-attachment: fixed;
 }
+
   
