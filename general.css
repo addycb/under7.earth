@@ -1,7 +1,9 @@
-.imgtest {
+.aligncenter {
+  clear: both;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  text-align:center;
 }
 h1 {
     color: rgb(40, 202, 62);
