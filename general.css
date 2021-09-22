@@ -8,6 +8,8 @@
 .boxed {
   border: 1px solid rgb(8, 177, 30) ;
   background-color: white;
+  width: 50%;
+  margin: auto;
 }
 h1 {
     color: rgb(40, 202, 62);
