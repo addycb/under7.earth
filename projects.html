@@ -11,10 +11,15 @@
     <a href="/contact.html">Contact</a>
   </div>
 <body>
-<h1>Trucking Edit</h1>
-<a href=https://www.hotshotshow.com>
+<a>
   <img src="trucking1.png" alt="HOTSHOT Trucking" width="500" height="600" class="aligncenter">
 </a>
+<input type="color" id="colorPickerButton" name="color">
+<script>
+document.querySelector("input").addEventListener("input", function() {
+  document.body.style.background = this.value;
+});
+</script>
 
 </body>
 </html> 
