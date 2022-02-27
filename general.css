@@ -11,7 +11,7 @@
   width: 50%;
   margin: auto;
 }
-poembox {
+aboutme {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   
@@ -48,4 +48,11 @@ body {
 .topnav a.active {
   background-color: #04AA6D;
   color: white;
+}
+.biggitbutton {
+  float: right
+}
+#map {
+  height: 400px;
+  width: 100%;
 }
