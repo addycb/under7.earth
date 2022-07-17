@@ -5,54 +5,109 @@
   margin-right: auto;
   text-align:center;
 }
-.boxed {
-  border: 1px solid rgb(8, 177, 30) ;
-  background-color: white;
-  width: 50%;
-  margin: auto;
+
+.flower{
+  background-image:url(img/flowerfield.png);
+  background-position-x: center;
+  background-repeat:repeat;
 }
-aboutme {
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-  
+
+
+.aerial{
+  background-image:url(img/blisslands.png);
+  background-size:50%;
+  background-repeat:repeat
 }
-h1 {
-    color: rgb(40, 202, 62);
-    text-align: center;
+
+.hands{
+  background-image: url(img/hands.jpg);
+  background-size: cover;
+  background-position-y:10%
 }
-p1 {
-  color: rgb(40, 202, 62);
-  text-align: left;
-} 
-body {
-  background-image:url("under7logo.png");
-  background-repeat: repeat;
-  
+
+
+
+.menu {
+  background-image: url(img/rock.png);
+  overflow:visible
 }
-.topnav {
-  background-color: rgb(14, 182, 36);
-  overflow: hidden;
+.menu a {
+  border: 10px solid transparent;
+  padding: 0px;
+  background-color: antiquewhite;
+  color: #000000;
 }
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-.topnav a:hover {
-  background-color: #ddd;
+.menu a:hover {
+  background-color: rgb(245, 105, 12);
   color: black;
 }
-.topnav a.active {
+.menu a.active {
   background-color: #04AA6D;
   color: white;
 }
-.biggitbutton {
-  float: right
+
+
+.menu1 {
+  background-image: url(img/rock.png);
+  overflow:visible
 }
-#map {
-  height: 400px;
-  width: 100%;
+.menu1 a {
+  border: 10px solid transparent;
+  padding: 0px;
+  background-color: antiquewhite;
+  color: #000000;
+}
+.menu1 a:hover {
+  background-color: rgb(245, 105, 12);
+  color: black;
+}
+.menu1 a.active {
+  background-color: #0cd7e9;
+  color: white;
+}
+
+
+
+.menu2 {
+  background-image: url(img/rock.png);
+  overflow:visible
+}
+.menu2 a {
+  border: 10px solid transparent;
+  padding: 0px;
+  background-color: antiquewhite;
+  color: #000000;
+}
+.menu2 a:hover {
+  background-color: rgb(245, 105, 12);
+  color: black;
+}
+.menu2 a.active {
+  background-color: #000000;
+  color: white;
+}
+
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+.green{
+  color: rgb(40, 202, 62);
+}
+
+.rocked{
+  border: 10px solid transparent;
+  padding: 10px;
+  border-image: url("img/rock.png") 30 round;
+ 
+}
+
+.heldtext{
+  top:15%;
 }
