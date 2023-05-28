@@ -7,9 +7,10 @@
 }
 
 .flower{
-  background-image:url(/static/images/aflowerfield.png);
-  background-position-x: center;
-  background-repeat:repeat;
+  background-image:url(/static/images/aflowerfield.png),radial-gradient(150% 150% at 50% 45%, rgba(112,82,47,0.753) 0%, rgba(15,34,105,0.753) 100%, #374034 0%),url(/static/images/under7logo.png);
+  background-size: 57px, cover, auto;
+  background-position-x: center, 0% 0%, top left;
+  background-repeat:repeat,repeat,repeat;
 }
 
 
