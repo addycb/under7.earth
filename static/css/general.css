@@ -1,8 +1,4 @@
 .aligncenter {
-  clear: both;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   text-align:center;
 }
 
@@ -105,8 +101,7 @@
 .rocked{
   border: 10px solid transparent;
   padding: 10px;
-  border-image: url("/static/images/rock.png") 30 round;
- 
+  border-image: url("/static/images/rock.png") 30 round; 
 }
 
 .heldtext{
