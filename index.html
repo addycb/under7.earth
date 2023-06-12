@@ -213,7 +213,7 @@ void mainImage( out vec4 fragColor, in vec2 fragCoord )
 #endif
             // Camera stuff
             vec2 uv = (fragCoord.xy + offset) / iResolution.xy;
-            vec3 cpos = vec3(0.0, 4.0, 10.0); // Camera position
+            vec3 cpos = vec3(0.0, 7.0, 10.0); // Camera position
             vec3 cdir = pixtoray(uv);
             cdir = quatmul( // Tilt down slightly
                 vec4(-0.19867, 0.0, 0.0, 0.980067), cdir);
