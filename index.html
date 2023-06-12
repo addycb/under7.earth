@@ -261,7 +261,7 @@ void mainImage( out vec4 fragColor, in vec2 fragCoord )
             iResolution: (gl, loc, ctx) => gl.uniform2f(loc, ctx.width, (ctx.height<ctx.width?ctx.height/2:ctx.height)),
             iTime:       (gl, loc) => gl.uniform1f(loc, performance.now() / 1000),
           }
-        }
+        }   
       }
     });
   </script>
@@ -272,8 +272,7 @@ void mainImage( out vec4 fragColor, in vec2 fragCoord )
     <a href="static/html/contact.html">Contact</a>
     </div>
 <body>
-  <header>
-  </header>
+   
 
 
 </body></html>
