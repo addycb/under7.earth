@@ -83,7 +83,12 @@
   background-color: #000000;
   color: white;
 }
-
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
 .centered {
   position: fixed;
@@ -92,7 +97,13 @@
   transform: translate(-50%, -50%);
 }
 
-
+.treecenter{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height:auto;
+}
 
 .green{
   color: rgb(40, 202, 62);
@@ -145,3 +156,4 @@ iframe {
 
 
 .landing-title{font-size:26pt;font-family:CircularStd,sans-serif;font-weight:900}
+
